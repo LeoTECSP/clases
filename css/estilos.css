@@ -1,0 +1,71 @@
+/* everydai i weik up */
+
+/* Aplicar estilos de 3 maneras */
+
+/* por selector, por id o por clase */
+/* id: solo va a funcionar al del id específicado */
+/* si quiero al seccion1 y no a nadie mas aplico por id */
+
+#seccion1
+{
+    border: red 2px solid;
+    /*Para abrir, necesitamos salir de la carpeta con /../ y poner la ruta
+    .. es salir un nivel superior, 
+    */
+    background-image:url("/../img/perrito.webp");
+}
+
+#seccion2
+{
+    background-image:url("/../img/ariana.webp");
+}
+
+/* Si tu quieres aplicar estilo a través de clas een el atributo clas la clase a cual aplicarla
+hay que decirle a ese elemento en atributo clase, que quieres aplicarle, esto es importante
+porque las clases se pueden compartir a muchos elementos y al elemento varias clases.*/
+
+/* Un punto hace referencia a una clase */
+
+
+.clase1{
+    background-color: aquamarine;
+}
+
+.clase2{
+    color:red;
+}
+
+
+/* A toda la ul se le aplica un borde, no se aplicó a cada elemento
+individual de la UL, sobre el el borde, el componente
+pero además se le aplica un clor adentro, de la etiqueta ul sea
+gold, la A es superpoderosa
+
+
+La etiqueta de vinculo, porque aplicamos un estilo particular
+se aplicó que fuera rojo
+
+Apliqué estilo a ul, afecta a los hijos, pero al que no alcanza
+a afectar es al que no tiene la etiqueta a.
+
+
+
+
+Ls etiwuetas a en particular son las mas caprichosas
+no respetan estillos de padres a menos que indiquen estilo particular
+en ellos, la etiqueta a esta dentro de li y ul aunque esté dentro pero
+la etiqueta ul que tenga borde y que todos sean amarilloos, pero la 
+a no va a cambiar a menos que tu lo digas, por eso cambió el primero, porque la 
+clase2 tiene rojo y es el único que respetó.
+
+*/
+.borde{
+    /* Le aplicó 3 atributos, el border color, style y line */
+    border: green solid 5px;
+    color: gold;
+
+}
+/* No afecta la posicion de llaves, como es 
+legibilidad, no impacta en nada
+
+El nombre de variable, clase o objeto debe llevar espacios o genera otra cosa*/
